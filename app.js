@@ -16,6 +16,14 @@ app.use(cors());
 // Middleware to parse incoming JSON payloads
 app.use(express.json());
 
+// Temporary Middleware for testing
+app.use((req, res, next) => {
+  req.user = {
+    _id: "5d8b8592978f8bd833ca8133",
+  };
+  next();
+});
+
 app.use("/", routes);
 
 app.listen(PORT, () => {
