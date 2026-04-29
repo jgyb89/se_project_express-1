@@ -4,3 +4,6 @@ The back-end project is focused on creating a server for the WTWR application. Y
 `npm run start` — to launch the server 
 
 `npm run dev` — to launch the server with the hot reload feature
+
+## Video Walkthrough
+https://www.loom.com/share/6b44b97e2ef44f5882f32b8847b198cf
