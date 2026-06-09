@@ -7,3 +7,6 @@ The back-end project is focused on creating a server for the WTWR application. Y
 
 ## Video Walkthrough
 https://www.loom.com/share/6b44b97e2ef44f5882f32b8847b198cf
+
+## VM Setup Walkthrough
+https://www.loom.com/share/ab3d96c42c11402fa9c57e81289056e1
