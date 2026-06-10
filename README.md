@@ -10,3 +10,9 @@ https://www.loom.com/share/6b44b97e2ef44f5882f32b8847b198cf
 
 ## VM Setup Walkthrough
 https://www.loom.com/share/ab3d96c42c11402fa9c57e81289056e1
+
+## Live URL
+https://jg.wtwr.twilightparadox.com/
+
+## Frontend GitHub repo
+https://github.com/jgyb89/se_project_react 

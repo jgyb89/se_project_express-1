@@ -21,7 +21,7 @@ const createItem = (req, res, next) => {
     .catch((err) => {
       console.error(err);
       if (err.name === "ValidationError") {
-        return next(new BadRequestError(err.message));
+        return next(new BadRequestError("Invalid data"));
       }
       return next(err);
     });

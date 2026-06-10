@@ -39,7 +39,7 @@ const updateUser = (req, res, next) => {
         return next(new NotFoundError("User not found"));
       }
       if (err.name === "ValidationError") {
-        return next(new BadRequestError(err.message));
+        return next(new BadRequestError("Invalid data"));
       }
       return next(err);
     });
@@ -65,7 +65,7 @@ const createUser = (req, res, next) => {
     .catch((err) => {
       console.error(err);
       if (err.name === "ValidationError") {
-        return next(new BadRequestError(err.message));
+        return next(new BadRequestError("Invalid data"));
       }
       if (err.code === 11000) {
         return next(new ConflictError("A user with this email already exists"));
